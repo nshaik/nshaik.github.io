@@ -77,6 +77,8 @@
   }
 }
 .products img{width:100%}
+.projects img{background-position:center center; height:200px; width:100%}
+address h4{margin:0}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
