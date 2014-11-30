@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Hamzah Academy</title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300|Oxygen:300' rel='stylesheet' type='text/css'>
     <link href="lib/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -28,9 +28,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+            <li><a href="#">Static top</a></li>
+            <li><a href="#">Fixed top</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -55,6 +55,7 @@
 							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -67,6 +68,9 @@
 							</div>
 							<div class="item">
 							  <img src="images/c.jpg" alt="...">
+							</div>
+							<div class="item">
+							  <img src="images/d.jpg" alt="...">
 							</div>
 						  </div>
 
@@ -91,29 +95,39 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-8">
-				<ul class="list-unstyled steps">
+				<h2>Our Mission</h2>
+				<ul class="">
 					<li>
-						<div class="circle">
-							<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-						</div>
-						<h3>TA-LEEM</h3>
-						<p>to educate children by engaging them at all learning levels and abilities, utilizing all of their sensory skills, and providing the most up-to-date curriculum and classroom technology available.</p>
+						<p>To nurture young minds utilizing state-of-the-arts educational tools and methodology.</p>
 					</li>
 					<li>
-						<div class="circle">
-							<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-						</div>
-						<h3>TAR-BIYAH</h3>
-						<p>to develop all students by having faculty and staff who nurture the highest Islamic values and constantly teach children, by example, how to be strong Muslims and community members.</p>
+						<p>To mold the character of the student according to the highest Islamic moral standards.</p>
 					</li>
 					<li>
-						<div class="circle">
-							<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-						</div>
-						<h3>TAZKIYA</h3>
-						<p>to purify the hearts and minds of students by promoting spiritual as well as physical wellbeing through a foundation of proper Islamic values.</p>
+						<p>To motivate the next generation of Muslims to be leaders and affluent members of society.</p>
 					</li>
 				</ul>
+				<h2>Our Methodology <small>Based on the 3 T(s) principles.</small></h2>
+				<div class="row steps">
+					<div class="col-sm-4">
+						<div class="circle">T
+						</div>
+						<h3>TALEEM</h3>
+						<p>To educate children utilizing their sensory skills (seeing, hearing, touching) and other interactive tools.</p>
+					</div>
+					<div class="col-sm-4">
+						<div class="circle">T
+						</div>
+						<h3>TARBIYAH</h3>
+						<p>To have faculty and staff who embody the highest Islamic values who teach children by example.</p>
+					</div>
+					<div class="col-sm-4">
+						<div class="circle">T
+						</div>
+						<h3>TAZKIYA</h3>
+						<p>To promote spiritual as well as physical well-being by focusing on proper Islamic teaching.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-sm-4">
 				<div class="panel panel-primary">
@@ -138,7 +152,52 @@
 	</div>
 	<div class="footer">
 		<div class="container">
-			&copy; copyright 2014, Tuts.
+			<div class="row">
+				<div class="col-sm-4">
+					<p>665 Tidwell Rd, Alpharetta, GA 30004<p>
+					<p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> - (770) 558-3500</p>
+					<p>From GA-400 North, take exit 11 (Windward Pkwy) and turn left</p>
+					<ul>
+						<li>Turn Right at Deerfield Pkwy</li>
+						<li>Turn Right at Morris Rd</li>
+						<li>Turn Left at Bethany Bend</li>
+						<li>Turn Left at Strickland Rd</li>
+						<li>Turn Right at Tidwell Cir</li>
+						<li>Tidwell Cir Dead Ends at Our Masjid</li>
+					</ul>
+					<p>&copy; copyright 2014, Hamzah Academy.</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label class="sr-only">Name</label>
+						<input type="text" class="form-control" placeholder="Enter name">
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-sm-6">
+								<label class="sr-only">Phone</label>
+								<input type="text" class="form-control" placeholder="Enter phone">
+							</div>
+							<div class="col-sm-6">
+								<label class="sr-only">Address</label>
+								<input type="email" class="form-control" placeholder="Enter address">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="sr-only">Subject</label>
+						<input type="text" class="form-control" placeholder="Enter subject">
+					</div>
+					<textarea class="form-control" rows="2" placeholder="Message"></textarea>
+					<div class="form-group text-right">
+						<button type="submit" class="btn btn-default">Send</button>
+					</div>
+				</div>
+				<div class="col-sm-4">					
+					<p><a href="http://www.masjidhamzah.com/" target="_blank">http://www.masjidhamzah.com/</a></p>					
+					<p><a href="http://www.mygradeportal.com/" target="_blank">Parent Portal</a></p>
+				</div>
+			</div>
 		</div>
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
