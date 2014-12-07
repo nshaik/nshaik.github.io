@@ -11,7 +11,7 @@ h1,h2,h3{font-family: 'Oxygen', sans-serif;}
 .slider .carousel .carousel-control.right,.slider .carousel .carousel-control.left{background:none;}
 .slider .carousel .item img{height:100%; width:100%;}
 .slider .carousel .item{height:100%; width:100%;}
-.welcomeText{margin-top:50px;}
+.welcomeText{margin-top:50px; font-family: 'Alegreya Sans SC', sans-serif;}
 .circle{background:#3e7e80; border-radius:50%; font-size:30px; font-weight:bold; line-height:0px; padding:30px 20px; color:#fff; width:60px; margin:10px auto;}
 .steps h3{}
 .steps div{text-align:center}
@@ -41,6 +41,10 @@ letter-spacing: 3px;}
 .events{margin-top:30px;}
 .methodology{margin-bottom:50px;}
 .mission h2{margin-top:0;}
+.page-title{background:url(../images/slider-bg.jpg) no-repeat center; background-size:cover; height:100px}
+.page-title h1{text-align:right; color:#fff; line-height:100px; margin:0;}
+body > .container{margin-top:20px;}
+iframe{border:none;}
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 	.slider-home {height:300px;}
