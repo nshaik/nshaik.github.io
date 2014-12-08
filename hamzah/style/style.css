@@ -33,7 +33,7 @@ letter-spacing: 3px;}
 .navbar-default .navbar-nav>li>a{color:#fff;}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{color:#ffff67}
 .panel-primary{border-color:#3e7e80}
-.panel-primary>.panel-heading{background-color:#3e7e80; border-color:#3e7e80}
+.panel-primary>.panel-heading,.list-group-item.active{background-color:#3e7e80; border-color:#3e7e80}
 .footer a {color:#ffff67;}
 .footer input,.footer textarea, .footer button{background-color:transparent; color:#ffff67; border-color:#ffff67; border-style:dashed}
 .footer button{margin-top:15px;background-color:#ffff67; color:#000}
