@@ -44,7 +44,7 @@ letter-spacing: 3px;}
 .mission h2{margin-top:0;}
 .page-title{background:url(../images/slider-bg.jpg) no-repeat center; background-size:cover; height:100px}
 .page-title h1{text-align:right; color:#fff; line-height:100px; margin:0;}
-body > .container{margin-top:20px;}
+body > .container{margin-top:50px; margin-bottom:50px;}
 iframe{border:none;}
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
