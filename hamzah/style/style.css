@@ -11,7 +11,8 @@ h1,h2,h3{font-family: 'Oxygen', sans-serif;}
 .slider .carousel .carousel-control.right,.slider .carousel .carousel-control.left{background:none;}
 .slider .carousel .item img{height:100%; width:100%;}
 .slider .carousel .item{height:100%; width:100%;}
-.welcomeText{margin-top:50px; font-family: 'Alegreya Sans SC', sans-serif;}
+.welcomeText{margin-top:50px;}
+.welcomeText h1{font-family: 'Alegreya Sans SC', sans-serif; text-transform: capitalize; font-style: italic;}
 .circle{background:#3e7e80; border-radius:50%; font-size:30px; font-weight:bold; line-height:0px; padding:30px 20px; color:#fff; width:60px; margin:10px auto;}
 .steps h3{}
 .steps div{text-align:center}
