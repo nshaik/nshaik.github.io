@@ -47,6 +47,10 @@ body > .container{margin-top:50px; margin-bottom:50px;}
 .container h2.title{margin-bottom:20px;}
 .container h2.title:first-child{margin-top:0;}
 iframe{border:none;}
+[aria-expanded*='false'] .glyphicon-plus-sign{display:inline-block;}
+[aria-expanded*='false'] .glyphicon-minus-sign{display:none;}
+[aria-expanded*='true'] .glyphicon-plus-sign{display:none;}
+[aria-expanded*='true'] .glyphicon-minus-sign{display:inline-block;}
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 	.slider-home {height:300px;}
