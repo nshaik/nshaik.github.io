@@ -52,6 +52,8 @@ a[aria-expanded*='true'] {background-color:#3e7e80; border-color:#3e7e80; color:
 .panel{border:0px; margin:0px;}
 .panel-body{padding:0;}
 a.list-group-item:hover, a.list-group-item:focus{background-color:#3e7e80; border-color:#3e7e80; color:#fff}
+.MsoNormalTable h3{text-transform: uppercase;
+margin: 5px 0; text-align:center}
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 	.slider-home {height:300px;}
